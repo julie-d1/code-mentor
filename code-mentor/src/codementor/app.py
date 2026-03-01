@@ -53,10 +53,10 @@ def fix_tab(code, message):
     except Exception as e:
         return "", f"⚠️ Error: {e}", ""
 
-with gr.Blocks(title="Code Mentor — Adaptive Code Mentor") as demo:
-    gr.Markdown("# Code Mentor — Adaptive Code Mentor")
+with gr.Blocks(title="CodeMentor — Adaptive Coding Mentor") as demo:
+    gr.Markdown("# CodeMentor — Adaptive Coding Mentor")
 
-    with gr.Accordion("Quick Examples", open=False):
+    with gr.Accordion("Quick Examples", open=True):
         gr.Examples(
             examples=[
                 [
